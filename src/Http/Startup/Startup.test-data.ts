@@ -2,10 +2,10 @@ import { StartupDTO, Startup } from "../../Types/Startup";
 
 export const startupDTO: StartupDTO = {
   id: 1,
-  dateCreated: "2020-12-22T13:00:00.000Z",
+  dateCreated: new Date("2020-12-22T13:00:00.000Z"),
   name: "Biotechnix",
   country: "Pakistan",
-  dateFounded: "2020-12-23T13:00:00.000Z",
+  dateFounded: new Date("2020-12-23T13:00:00.000Z"),
   employees: "<100",
   legalEntity: "",
   mainContact: "",

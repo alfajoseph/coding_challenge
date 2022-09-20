@@ -26,8 +26,8 @@ export interface Startup {
 
 export interface StartupDTO
   extends Omit<Startup, ["dateCreated", "dateFounded"]> {
-  dateCreated: string;
-  dateFounded: string;
+  dateCreated: Date;
+  dateFounded: Date;
 }
 
 export interface StartupFilterCriteria {
